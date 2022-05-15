@@ -227,6 +227,18 @@ a {
         width: 100%;
     }
 
+    .web-design {
+        width: 100%;
+    }
+
+    .first-row {
+        flex: 0 100%
+    }
+
+    .second-row {
+        flex: 0 100%;
+    }
+
     .contact {
         text-align: center;
     }

@@ -4,15 +4,22 @@
     margin: 0;
 }
 
+html {
+    height: -webkit-fill-available;
+}
+
 body {
     background-color: #9b9d98;
-}
+    flex: 1;
+    overflow: scroll;
+  }
 
 header {
     padding: 20px 35px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     display: flex;
+    height: 100vh;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;

@@ -12,6 +12,7 @@ body {
     background-color: #9b9d98;
     flex: 1;
     overflow: scroll;
+    flex-direction: column;
   }
 
 header {

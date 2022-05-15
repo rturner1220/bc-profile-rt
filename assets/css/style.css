@@ -218,7 +218,7 @@ a {
 
 /* MEDIA QUERY FOR MOBILE PHONES */
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 980px) {
     .flex-row p {
         width: 100%;
     }
@@ -227,13 +227,17 @@ a {
         width: 100%;
     }
 
-    .web-design {
-        width: 100%;
+    .web-design img {
+        min-width: 500px
     }
 
     .first-row {
-        flex: 0 100%
+        flex-basis: 100%;
+        min-width: 500px;
     }
+
+    .first-row-html-css h2 {
+    flex: 0 100%;    }
 
     .second-row {
         flex: 0 100%;

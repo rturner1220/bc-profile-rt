@@ -136,7 +136,7 @@ a {
   .html-css h2 {
     position: absolute;
     left: 15%;
-    bottom: -120%;
+    bottom: -160%;
     color: #ffffff;
     font-size: 32px;
     text-decoration-line: overline;
@@ -145,7 +145,7 @@ a {
   .landing-page h2 {
     position: absolute;
     left: 55%;
-    bottom: -120%;
+    bottom: -160%;
     color: #ffffff;
     font-size: 32px;
     text-decoration-line: overline;
@@ -174,7 +174,7 @@ a {
 .apps-games h2 {
     position: absolute;
     left: 15%;
-    bottom: -175%;
+    bottom: -225%;
     color: #ffffff;
     font-size: 32px;
     text-decoration-line: overline;
@@ -183,7 +183,7 @@ a {
 .sql h2 {
     position: absolute;
     left: 55%;
-    bottom: -175%;
+    bottom: -225%;
     color: #ffffff;
     font-size: 32px;
     text-decoration-line: overline;

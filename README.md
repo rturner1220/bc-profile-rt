@@ -1,10 +1,10 @@
-# bc-profile-rt
+# rosa-turner-portfolio
 Second assignment using ADVANCED CSS
 Name: Rosa Turner
 email: rmturner1220@gmail.com
 
 ##website
-https://rturner1220.github.io/bc-profile-rt/
+https://rturner1220.github.io/rosa-turner-portfolio/
 
 After what I learned in module 2 Run-buddy, I made my second assignment on my own 😀, making the web page from scratch, putting the knowledge acquired in module 2 👈
 I took reference the fonts and colors from the others codes.

@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-html {
-    height: -webkit-fill-available;
-}
-
 body {
     background-color: #9b9d98;
     flex: 1;
@@ -20,7 +16,6 @@ header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     display: flex;
-    height: 100vh;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
@@ -221,4 +216,20 @@ a {
     line-height: 1.7;
 }
 
+/* MEDIA QUERY FOR MOBILE PHONES */
+
+@media screen and (max-width: 575px) {
+    .flex-row p {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+    
+}
 

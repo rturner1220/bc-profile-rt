@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar Style */
 .navbar {
     display: flex;
@@ -105,7 +109,7 @@ body {
 
  /* PROJECTS SECTION */
 
-.section-title {
+#section-title {
     font-size: 50px;
     font-family: Arial, Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 20px;
@@ -115,12 +119,39 @@ body {
     margin:0 auto 35px auto;
     border-color: #ffffff;
     width: 50%;
-    margin-top: 20%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+} 
+
+#first-project {
+   display: flex;
+   margin-left: 30%;
 }
 
-.projects-section {
-    justify-content: space-between;
+.first-block img {
+    max-width: 600px;
+}
+
+.first-block {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 5%;
+    background-size: auto;
+    background-color: rgb(205, 106, 6);
+}
+
+.first-block h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+
+#projects-section {
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
@@ -140,13 +171,12 @@ body {
 }
 
 .project-block h2 {
-    margin-top: 10px;
     margin-bottom: 10px;
     color: #ffffff;
     font-size: 42px;
+    margin-top: 5%;
+
 }
-
-
 
 .contact h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -158,7 +188,7 @@ body {
     width: 50%;
     border-color: #ffffff;
     margin: 0 auto 35px auto;
-    margin-top: 50px;
+    margin-top: 5%;
     margin-bottom: 20px;
 }
 
@@ -171,26 +201,55 @@ body {
     color: #ffffff;
     text-decoration: none;
     line-height: 1.7;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES */
+/* MEDIA QUERY FOR SMALL SCREENS */
 
-@media screen and (max-width: 500px) {
-.web-design {
-    min-width: 350px;
-    max-height: 300px;
+@media screen and (max-width: 980px) {
+    
+.navar ul {
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.heading {
-    text-align: center;
 
-}
-
-.first-vertical img {
+.headings {
     flex-direction: column;
-    min-width: 350px;
-    max-height: 300px;
+    align-items: center;    
 }
 
+.photo {
+    flex-direction: column;
+    width: 400px;
+    height: 275px;
+}
 
+#intro h2 {
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+#intro p {
+    text-align: center;
+}
+
+.project-block {
+    flex-direction: column;
+text-align: center;
+}
+
+}
+
+/* MEDIA QUERY FOR SMARTPHONES */
+
+@media screen and (max-width: 575px) {
+
+.first-block {
+    max-width: 350px;
+    flex-basis: 100%
+}
 }

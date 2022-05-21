@@ -3,82 +3,84 @@
  <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Rosa Turner</title>
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+  </head>
 <body>
 <!-- navigation -->
- <header>
-   <h1>
-    Rosa Turner
-   </h1>
-     <nav>
+ 
+     <nav class="navbar">
       <ul>
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-         <a href="#contact-info">Contact</a>
-        </li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-info">Contact</a></li>
       </ul>
      </nav>
- </header>
+
 <!-- End Navigation -->
 
 <!-- About Me -->
-<div id= "about-me" class="flex-row">
-  <h2>About Me</h2>
-</div>
-<div class="intro">
-  <img src="./assets/images/profile pic.jpg" alt="about-me" />
-</div>
+<section id="about-me">
+    <h1 class="headings">About Me</h1>
+    <div class="photo">
+      <img src="./assets/images/profile pic.jpg" alt="about me">
+    <div id="intro">
+      <h2>Rosa Turner</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+      </p>
+    </div>
+  </div>
+</section> 
+
+
 <div class="bio">
-   <p>
-   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-   </p>
+   
 </div>
 
 <!-- End About Me -->
 
 <!-- Projects -->
-<div id="projects">
+<section id="projects" class="projects-section">
   <h2 class= "section-title">
     Projects
   </h2>
-</div>
+   <div class="project-block">
+    <a href="#">
+     <img src="./assets/images/web design.jpg" alt="web-design">
+    </a>
+     <h2>Web Design</h2>
+   </div>
 
-      <div class="first image">
-      <img class="web-design" src="./assets/images/web design.jpg" alt="web-design" />
-      <div class="heading-overlay">
-      <div class="heading">Web Design</div>
+   <div class="project-block">
+    <a href="#">
+    <img src="./assets/images/HTML CSS.jpg" alt="html-css">
+    </a>
+    <h2>Html & Css</h2>
     </div>
-  </div>
 
-  <div class="first-vertical">
-    <img src="./assets/images/HTML CSS.jpg" alt="html-css" />
-    <div class="html-css">
-    <div class="html-css-title">Html & Css</div>
+    <div class="project-block">
+      <a href="#">
+    <img src="./assets/images/landing page.jpg" alt="landing-page">
+      </a> 
+    <h2>Landing Page</h2>
     </div>
-    <img src="./assets/images/landing page.jpg" alt="landing-page" />
-    <div class="landing-page">
-    <div class="landing-page-title">Landing Page</div>
-  </div>
-  </div>
 
-<div class="second-vertical">
-    <img src="./assets/images/Apps and Games.jpg" alt="apps-games" />
-    <div class="apps-games">
-      <div class="apps-games-title">Apps & Games</div>
-    </div>
-    <img src="./assets/images/SQL.jpg" alt="sql" />
-    <div class="sql">
-      <div class="sql-title">SQL</div>
-    </div>
-</div>
-
+    <div class="project-block">
+      <a href="#">
+        <img src="./assets/images/Apps and Games.jpg" alt="apps-games">
+      </a>
+      <h2>Apps & Games</h2>
+      </div>
+ 
+      <div class="project-block">
+        <a href="#">
+        <img src="./assets/images/SQL.jpg" alt="sql">
+        </a>
+      <h2>SQL</h2>
+        </div>
+</section>
+  
 <!-- CONTACT INFORMATION -->
 <div id="contact-info"></div>
 <div class="contact">

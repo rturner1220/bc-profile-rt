@@ -14,9 +14,6 @@ Rosa Turner
 
 Deployed Application
 
-##website
-https://rturner1220.github.io/rosa-turner-portfolio/
-
 ##github
 https://github.com/rturner1220/rosa-turner-portfolio
 
